@@ -1,6 +1,8 @@
 import axios from "axios";
 import { jwtDecode } from "jwt-decode";
-export const API_URL = "http://localhost:5000/webKp";
+// export const API_URL = "http://localhost:3000/webKp";
+export const API_URL =
+  "https://bethann-fractious-flavourfully.ngrok-free.app/webKp";
 
 export const login = async (username, password) => {
   const res = await axios.post(`${API_URL}/auth/login`, {
