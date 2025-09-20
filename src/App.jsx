@@ -1,5 +1,5 @@
 import "./index.css";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Login } from "./pages/Login";
 import { ProtectedRoute } from "./components/Middleware/Protected.jsx";
