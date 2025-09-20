@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+/* custom layer boleh ditambah */
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
